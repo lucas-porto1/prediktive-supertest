@@ -8,8 +8,6 @@ This project uses [SuperTest](https://github.com/visionmedia/supertest) for API 
 - [Project Structure](#project-structure)
 - [Available Scripts](#available-scripts)
 
----
-
 ## Installation
 
 1. Clone the repository:
@@ -55,5 +53,5 @@ prediktive-supertest/
 
 ## Available Scripts
 
-- npm test: Runs the project tests with Mocha.
-- npm run format: Runs Prettier to format the code automatically.
+- ```npm run test```: Runs the project tests with Mocha.
+- ```npm run format```: Runs Prettier to format the code automatically.
