@@ -53,5 +53,5 @@ prediktive-supertest/
 
 ## Available Scripts
 
-- ```npm run test```: Runs the project tests with Mocha.
-- ```npm run format```: Runs Prettier to format the code automatically.
+- `npm run test`: Runs the project tests with Mocha.
+- `npm run format`: Runs Prettier to format the code automatically.
