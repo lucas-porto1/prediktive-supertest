@@ -9,14 +9,18 @@ describe('DuckDuckGo - Validations', function () {
     const responseJson = JSON.parse(response.text)
 
     responseJson.Results.forEach((result) => {
-      if (result.Icon.URL && result.Icon.URL !== '') {
-        console.log('Results URL:', result.Icon.URL)
+      const iconUrl = result.Icon.URL
+      if (iconUrl !== '') {
+        console.log('Results URL:', iconUrl)
+        expect(iconUrl).to.contains('/')
       }
     })
 
     responseJson.RelatedTopics.forEach((topic) => {
-      if (topic.Icon.URL && topic.Icon.URL !== '') {
-        console.log('Related Topics URL:', topic.Icon.URL)
+      const iconUrl = topic.Icon.URL
+      if (iconUrl !== '') {
+        console.log('Related Topics URL:', iconUrl)
+        expect(iconUrl).to.contains('/')
       }
     })
 
