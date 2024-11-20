@@ -6,6 +6,7 @@
     "test": "mocha",
     "format": "prettier --write ."
   },
+  "author": "Lucas Porto",
   "dependencies": {
     "chai": "^5.1.2",
     "dotenv": "^16.4.5",
